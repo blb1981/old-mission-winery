@@ -6,8 +6,6 @@ const faders = document.querySelectorAll('.fade-in')
 const yearElement = document.getElementById('year')
 const responsiveMenuItems = document.querySelectorAll('.responsive-menu-item')
 
-console.log(responsiveMenuItems)
-
 // Values
 const maxMenuSize = 768 // Max size in px for responsive nav menu
 const faderOptions = { threshold: 0, rootMargin: '0px 0px -250px 0px' }
