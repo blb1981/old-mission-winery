@@ -4,6 +4,9 @@ const navbar = document.getElementById('navbar')
 const responsiveMenu = document.getElementById('responsiveMenu')
 const faders = document.querySelectorAll('.fade-in')
 const yearElement = document.getElementById('year')
+const responsiveMenuItems = document.querySelectorAll('.responsive-menu-item')
+
+console.log(responsiveMenuItems)
 
 // Values
 const maxMenuSize = 768 // Max size in px for responsive nav menu
@@ -48,6 +51,13 @@ window.addEventListener('keydown', (e) => {
   if (e.key === 'Escape') {
     closeNavMenu()
   }
+})
+
+responsiveMenuItems.forEach((item) => {
+  item.addEventListener('click', () => {
+    console.log('working')
+    closeNavMenu()
+  })
 })
 
 // Sticky nav
