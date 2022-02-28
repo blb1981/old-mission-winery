@@ -1,0 +1,51 @@
+.bg-lightgray {
+  background-color: $clr-gray-light;
+}
+
+.bg-dark {
+  background-color: $clr-gray-3;
+}
+
+.bg-brand {
+  background-color: $clr-brand;
+}
+
+.text-light {
+  color: $clr-white;
+}
+
+.text-small {
+  font-size: 0.75rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.text-capitalize {
+  text-transform: capitalize;
+}
+
+.img-h-10 {
+  object-fit: cover;
+  max-height: 10rem;
+}
+.img-h-20 {
+  object-fit: cover;
+  max-height: 20rem;
+}
+.img-h-30 {
+  object-fit: cover;
+  max-height: 30rem;
+}
+
+@media screen and (max-width: 599px) {
+  .reverse-vertical {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}

@@ -1,0 +1,17 @@
+.container {
+  max-width: $container-width;
+  margin: 0 auto;
+  padding: $container-padding;
+
+  &-thin {
+    max-width: $container-width * 0.667;
+    margin: 0 auto;
+    padding: $container-padding;
+  }
+
+  &-thinner {
+    max-width: $container-width * 0.5;
+    margin: 0 auto;
+    padding: $container-padding;
+  }
+}

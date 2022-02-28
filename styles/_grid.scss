@@ -1,0 +1,55 @@
+// 2 Columns
+.col-2 {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+@media screen and (min-width: 600px) {
+  .col-2 {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+// 3 Columns
+.col-3 {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+@media screen and (min-width: 768px) {
+  .col-3 {
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+  }
+}
+// 4 Columns
+.col-4 {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+@media screen and (min-width: 600px) {
+  .col-4 {
+    grid-template-columns: 1fr 1fr;
+    
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .col-4 {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2rem;
+  }
+}
+
+// Increase gap for larger screens
+@media screen and (min-width: 992px) {
+  .col-2,
+  .col-3,
+  .col-4 {
+    gap: 3rem;
+  }
+}

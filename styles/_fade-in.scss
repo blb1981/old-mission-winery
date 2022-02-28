@@ -1,0 +1,26 @@
+.fade-in,
+.from-left,
+.from-right {
+  opacity: 0;
+  transition: $fade-in-transition;
+
+  &.appear {
+    opacity: 1;
+  }
+}
+@media screen and (min-width: 768px) {
+  .from-left {
+    transform: translateX(-50%);
+  }
+
+  .from-right {
+    transform: translateX(50%);
+  }
+}
+
+.from-left,
+.from-right {
+  &.appear {
+    transform: translateX(0);
+  }
+}

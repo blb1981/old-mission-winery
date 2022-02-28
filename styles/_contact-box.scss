@@ -1,0 +1,31 @@
+.contact-box {
+  display: flex;
+  padding: 0.25rem;
+  font-size: $contact-box-text-font-size;
+
+  .icon {
+    font-size: $contact-box-icon-font-size;
+    color: $contact-box-icon-color;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 1rem;
+  }
+
+  .contact-info {
+    font-size: 1rem;
+
+    .headline {
+      color: $contact-box-headline-color;
+    }
+
+    a {
+      color: $contact-box-link-color;
+      text-decoration: none;
+    }
+
+    .info {
+      text-align: left;
+    }
+  }
+}

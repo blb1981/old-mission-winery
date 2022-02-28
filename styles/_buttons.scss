@@ -1,0 +1,62 @@
+// Global btn style
+.btn {
+  padding: $btn-top-padding $btn-side-padding;
+  border: $btn-border-size solid $btn-border-color;
+  border-radius: $btn-radius;
+  cursor: pointer;
+  font: inherit;
+  display: inline-block;
+  margin: $btn-margin;
+  transition: $transition;
+}
+
+a.btn {
+  text-decoration: none;
+}
+
+.btn:hover,
+.btn:focus {
+  box-shadow: $btn-shadow;
+}
+
+// Brand buttons
+.btn-brand {
+  background-color: $clr-brand;
+  color: $clr-white;
+}
+
+.btn-brand-secondary {
+  background-color: $clr-brand-secondary;
+  color: $clr-gray-4;
+}
+
+.btn-brand-secondary:hover {
+  background-color: $clr-brand-secondary-light;
+}
+
+// Feedback buttons
+.btn-primary {
+  background-color: $clr-primary;
+  color: $clr-white;
+  border: $btn-border-size $btn-border-style $clr-primary-light;
+}
+.btn-success {
+  background-color: $clr-success;
+  color: $clr-white;
+  border: $btn-border-size $btn-border-style $clr-success-light;
+}
+.btn-accent {
+  background-color: $clr-accent;
+  color: $clr-black;
+  border: $btn-border-size $btn-border-style $clr-accent-light;
+}
+.btn-warning {
+  background-color: $clr-warning;
+  color: $clr-black;
+  border: $btn-border-size $btn-border-style $clr-warning-light;
+}
+.btn-danger {
+  background-color: $clr-danger;
+  color: $clr-white;
+  border: $btn-border-size $btn-border-style $clr-danger-light;
+}

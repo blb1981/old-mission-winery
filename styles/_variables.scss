@@ -1,0 +1,123 @@
+// Values
+$radius: 0;
+$shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+$font-sans-serif: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue',
+  Arial, 'Noto Sans', 'Liberation Sans', sans-serif, 'Apple Color Emoji',
+  'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+$font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono',
+  'Courier New', monospace;
+$font-size: 1rem;
+$transition: all 0.3s ease-in-out;
+
+// Layout
+$section-vertical-padding: 4rem;
+$container-width: 80rem;
+$container-padding: 0 2rem;
+$hero-width: 90vw;
+$hero-max-width: 40rem;
+$banner-vertical-padding: 2rem;
+
+// Colors
+$clr-brand: hsl(298, 48%, 41%);
+$clr-brand-light: hsl(298, 48%, 61%);
+$clr-brand-secondary: hsl(66, 92%, 61%);
+$clr-brand-secondary-light: hsl(66, 92%, 71%);
+
+$clr-primary: hsl(240, 100%, 50%);
+$clr-primary-light: hsl(240, 100%, 71%);
+$clr-primary-dark: hsl(240, 100%, 27%);
+
+$clr-success: hsl(120, 100%, 25%);
+$clr-success-light: hsl(120, 26%, 43%);
+$clr-success-dark: hsl(120, 100%, 16%);
+
+$clr-accent: hsl(195, 53%, 79%);
+$clr-accent-light: hsl(196, 35%, 85%);
+$clr-accent-dark: hsl(195, 16%, 54%);
+
+$clr-warning: hsl(60, 100%, 50%);
+$clr-warning-light: hsl(60, 82%, 78%);
+$clr-warning-dark: hsl(60, 100%, 39%);
+
+$clr-danger: hsl(0, 100%, 50%);
+$clr-danger-light: hsl(0, 100%, 73%);
+$clr-danger-dark: hsl(0, 100%, 26%);
+
+$clr-white: white;
+$clr-black: black;
+
+$clr-gray-1: #111;
+$clr-gray-3: #333;
+$clr-gray-4: #444;
+$clr-gray-5: #555;
+$clr-gray-7: #777;
+$clr-gray-9: #999;
+$clr-gray-light: #f3f3f3;
+
+// Typography
+$font-family-headline-1: 'Handlee', cursive;
+$font-family-main-1: 'Montserrat', sans-serif;
+$font-color: $clr-gray-4;
+// 'Montserrat', sans-serif;
+
+// Buttons
+$btn-top-padding: 0.25rem;
+$btn-side-padding: 0.5rem;
+$btn-border-size: 0;
+$btn-border-style: solid;
+$btn-border-color: $clr-gray-7;
+$btn-radius: $radius;
+$btn-shadow: none;
+$btn-margin: 0;
+
+// Navbar
+$navbar-height: 4rem;
+$navbar-background-color: $clr-white;
+$navbar-text-color: $clr-gray-4;
+$navbar-logo-color: $clr-gray-4;
+$navbar-responsive-item-border-color: rgba(0, 0, 0, 0.1);
+$navbar-responsive-item-padding: 1rem;
+$navbar-responsive-menu-transition: $transition;
+$navbar-responsive-background-hover-color: $clr-brand;
+$navbar-responsive-text-hover-color: $clr-white;
+$navbar-responsive-item-margin: 0;
+
+// Sticky nav
+$sticky-nav-bg: transparent;
+$sticky-nav-text-color: $clr-gray-4;
+$sticky-nav-bg-secondary: $clr-white;
+$sticky-nav-text-color-secondary: $clr-gray-4;
+$sticky-nav-shadow: $shadow;
+$sticky-nav-transition: $transition;
+
+// Hero
+$hero-height: 90vh;
+$hero-min-height: 25rem;
+$hero-image: '../images/hero.jpg';
+$hero-background-position: center;
+$hero-button-padding: 0.75rem 1rem;
+$hero-button-text-size: 1.25rem;
+$hero-headline-font-weight: lighter;
+$hero-subheadline-font-weight: lighter;
+$hero-button-font-weight: 400;
+$hero-transform-y: 2rem; // Raises/lowers content in hero
+$hero-gradient-overlay: linear-gradient(
+  to bottom,
+  rgba(0, 0, 0, 0.01),
+  rgba(0, 0, 0, 0.99)
+);
+$hero-margin-top: $navbar-height;
+
+// Contact box
+$contact-box-headline-color: $font-color;
+$contact-box-link-color: $clr-brand;
+$contact-box-icon-color: $font-color;
+$contact-box-text-font-size: $font-size;
+$contact-box-icon-font-size: 2.5rem;
+
+// Footer
+$footer-link-text-color: $clr-white;
+$footer-vertical-padding: 2rem;
+
+// Fade in effect
+$fade-in-transition: all 750ms ease-in;
